@@ -1,16 +1,4 @@
 mkdir newproject
-<<<<<<< HEAD
- cd newproject
-git init
-Initialised empty Git repository in /home/hamed/newproject/.git/
- touch index.html script.js git add . git commit -m "first"
-
-git branch -M main
- git remote add origin git@github.com:mohamedhamednour/newproject.git
- git push -u origin main
-
-create two branch
-=======
 cd newproject
 newproject$ git init
 Initialised empty Git repository in /home/hamed/newproject/.git/
@@ -34,4 +22,48 @@ touch file1 file2
 git add .
  git commit -m "1 com br"
  git push origin dev
->>>>>>> test
+ 
+ 
+ git branch test
+
+git checkout test
+Switched to branch 'test'
+
+touch text1 text2
+
+git add .
+ git commit -m "f"
+ git push origin test
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ add merge
+ 
+ git checkout main
+ ls 
+ 
+ git merge dev 
+ git merge test
+ 
+ 
+ 
+ 
+ 
+ 
+ remove remotly / git push origin :dev
+  remove remotly/ git push origin :test
+  
+  
+  remove localy -D
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
