@@ -1,4 +1,5 @@
 mkdir newproject
+<<<<<<< HEAD
  cd newproject
 git init
 Initialised empty Git repository in /home/hamed/newproject/.git/
@@ -9,3 +10,28 @@ git branch -M main
  git push -u origin main
 
 create two branch
+=======
+cd newproject
+newproject$ git init
+Initialised empty Git repository in /home/hamed/newproject/.git/
+ touch index.html script.js
+git add .
+git commit -m "first"
+git branch -M main
+git remote add origin git@github.com:mohamedhamednour/newproject.git
+git push -u origin main
+
+
+
+create two branch
+ git branch dev
+
+git checkout dev
+Switched to branch 'dev'
+
+touch file1 file2
+
+git add .
+ git commit -m "1 com br"
+ git push origin dev
+>>>>>>> test
